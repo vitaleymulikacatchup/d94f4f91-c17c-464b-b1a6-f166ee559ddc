@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -11,7 +11,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { BookOpen, Camera, Heart, Flower, Zap, Mountain, Play, Palette, Star, HelpCircle, Users, Sword } from "lucide-react";
+import { BookOpen, Heart, Flower, Zap, Mountain, Play, Palette, Star, HelpCircle, Users, Sword } from "lucide-react";
 
 export default function Page() {
   return (
@@ -42,7 +42,7 @@ export default function Page() {
           description="Follow Tanjiro Kamado's epic journey as he becomes a demon slayer to save his sister Nezuko and avenge his family. Experience breathtaking battles, incredible characters, and stunning animation."
           tag="Epic Anime Series"
           tagIcon={Sword}
-          imageSrc="https://images.pexels.com/photos/32175666/pexels-photo-32175666.jpeg"
+          imageSrc="https://images.pexels.com/photos/32175666/pexels-photo-32175666.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Tanjiro Kamado with his sword in dramatic pose"
           imagePosition="right"
           buttons={[
@@ -64,7 +64,7 @@ export default function Page() {
           description="Meet the unforgettable characters who bring this incredible story to life"
           tag="Heroes"
           tagIcon={Users}
-          imageSrc="https://images.pexels.com/photos/33575752/pexels-photo-33575752.jpeg"
+          imageSrc="https://images.pexels.com/photos/33575752/pexels-photo-33575752.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Tanjiro Kamado main character"
           imagePosition="left"
           bulletPoints={[
@@ -102,25 +102,25 @@ export default function Page() {
             {
               title: "Water Breathing Techniques",
               description: "Master the fundamental breathing style that starts Tanjiro's journey as a demon slayer",
-              imageSrc: "https://images.pexels.com/photos/6538917/pexels-photo-6538917.jpeg",
+              imageSrc: "https://images.pexels.com/photos/6538917/pexels-photo-6538917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Water breathing sword technique"
             },
             {
               title: "Demon Encounters",
               description: "Face terrifying demons and uncover the dark secrets behind their existence",
-              imageSrc: "https://images.pexels.com/photos/5435309/pexels-photo-5435309.jpeg",
+              imageSrc: "https://images.pexels.com/photos/5435309/pexels-photo-5435309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Scary demon in dark forest"
             },
             {
               title: "Hashira Training",
               description: "Train with the elite Demon Slayer Corps' strongest warriors",
-              imageSrc: "https://images.pexels.com/photos/6253303/pexels-photo-6253303.jpeg",
+              imageSrc: "https://images.pexels.com/photos/6253303/pexels-photo-6253303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Traditional Japanese training dojo"
             },
             {
               title: "Final Selection",
               description: "Survive the brutal final selection to become an official demon slayer",
-              imageSrc: "https://images.pexels.com/photos/1363873/pexels-photo-1363873.jpeg",
+              imageSrc: "https://images.pexels.com/photos/1363873/pexels-photo-1363873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Mystical mountain peak at night"
             }
           ]}
@@ -138,7 +138,7 @@ export default function Page() {
               id: "season-1",
               name: "Season 1: Unwavering Resolve",
               price: "26 Episodes",
-              imageSrc: "https://images.pexels.com/photos/33575752/pexels-photo-33575752.jpeg",
+              imageSrc: "https://images.pexels.com/photos/33575752/pexels-photo-33575752.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Season 1 cover art",
               onProductClick: () => window.open('https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba', '_blank')
             },
@@ -146,7 +146,7 @@ export default function Page() {
               id: "mugen-train",
               name: "Mugen Train Arc",
               price: "Movie + TV",
-              imageSrc: "https://images.pexels.com/photos/20276428/pexels-photo-20276428.jpeg",
+              imageSrc: "https://images.pexels.com/photos/20276428/pexels-photo-20276428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Mugen Train arc cover",
               onProductClick: () => window.open('https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba', '_blank')
             },
@@ -154,7 +154,7 @@ export default function Page() {
               id: "season-2",
               name: "Entertainment District",
               price: "11 Episodes",
-              imageSrc: "https://images.pexels.com/photos/7181912/pexels-photo-7181912.jpeg",
+              imageSrc: "https://images.pexels.com/photos/7181912/pexels-photo-7181912.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Entertainment District arc cover",
               onProductClick: () => window.open('https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba', '_blank')
             },
@@ -162,7 +162,7 @@ export default function Page() {
               id: "season-3",
               name: "Swordsmith Village",
               price: "11 Episodes",
-              imageSrc: "https://images.pexels.com/photos/1308648/pexels-photo-1308648.jpeg",
+              imageSrc: "https://images.pexels.com/photos/1308648/pexels-photo-1308648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Swordsmith Village arc cover",
               onProductClick: () => window.open('https://www.crunchyroll.com/demon-slayer-kimetsu-no-yaiba', '_blank')
             }
@@ -182,9 +182,9 @@ export default function Page() {
               name: "Koyoharu Gotouge",
               role: "Original Creator",
               description: "Manga artist who created the beloved Demon Slayer series with incredible world-building and character development.",
-              imageSrc: "https://images.pexels.com/photos/2014865/pexels-photo-2014865.jpeg",
+              imageSrc: "https://images.pexels.com/photos/2014865/pexels-photo-2014865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [{
-                icon: "BookOpen",
+                icon: BookOpen,
                 url: "https://viz.com/demon-slayer"
               }]
             },
@@ -193,9 +193,9 @@ export default function Page() {
               name: "Haruo Sotozaki",
               role: "Director",
               description: "Anime director who brought the manga to life with stunning visuals and breathtaking animation sequences.",
-              imageSrc: "https://images.pexels.com/photos/32764753/pexels-photo-32764753.jpeg",
+              imageSrc: "https://images.pexels.com/photos/32764753/pexels-photo-32764753.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [{
-                icon: "Camera",
+                icon: BookOpen,
                 url: "https://ufotable.com"
               }]
             }
@@ -216,7 +216,7 @@ export default function Page() {
               role: "Anime Enthusiast",
               company: "MyAnimeList Reviewer",
               rating: 5,
-              imageSrc: "https://images.pexels.com/photos/2014865/pexels-photo-2014865.jpeg",
+              imageSrc: "https://images.pexels.com/photos/2014865/pexels-photo-2014865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Portrait of Akira Tanaka"
             },
             {
@@ -225,7 +225,7 @@ export default function Page() {
               role: "Anime Blogger",
               company: "Otaku Central",
               rating: 5,
-              imageSrc: "https://images.pexels.com/photos/32764753/pexels-photo-32764753.jpeg",
+              imageSrc: "https://images.pexels.com/photos/32764753/pexels-photo-32764753.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Portrait of Sarah Johnson"
             },
             {
@@ -234,7 +234,7 @@ export default function Page() {
               role: "Content Creator",
               company: "Anime Reviews Plus",
               rating: 5,
-              imageSrc: "https://images.pexels.com/photos/34418422/pexels-photo-34418422.jpeg",
+              imageSrc: "https://images.pexels.com/photos/34418422/pexels-photo-34418422.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Portrait of Miguel Rodriguez"
             },
             {
@@ -243,7 +243,7 @@ export default function Page() {
               role: "Manga Collector",
               company: "Tokyo Anime Club",
               rating: 5,
-              imageSrc: "https://images.pexels.com/photos/16049911/pexels-photo-16049911.jpeg",
+              imageSrc: "https://images.pexels.com/photos/16049911/pexels-photo-16049911.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Portrait of Yuki Nakamura"
             }
           ]}
@@ -256,7 +256,7 @@ export default function Page() {
           description="Everything you need to know about Demon Slayer"
           tag="FAQ"
           tagIcon={HelpCircle}
-          imageSrc="https://images.pexels.com/photos/1340913/pexels-photo-1340913.jpeg"
+          imageSrc="https://images.pexels.com/photos/1340913/pexels-photo-1340913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Demon Slayer anime community"
           mediaPosition="left"
           faqs={[
@@ -289,7 +289,7 @@ export default function Page() {
           tag="Community"
           title="Join the Demon Slayer Community"
           description="Connect with fellow fans, get the latest updates, and dive deeper into the world of demon slayers. Subscribe to stay updated with new episodes, merchandise, and exclusive content."
-          imageSrc="https://images.pexels.com/photos/1340913/pexels-photo-1340913.jpeg"
+          imageSrc="https://images.pexels.com/photos/1340913/pexels-photo-1340913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Demon Slayer fan community gathering"
           mediaPosition="right"
           tagIcon={Users}
